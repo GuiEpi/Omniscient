@@ -5,13 +5,6 @@ namespace OmniscientClient
 {
     public class CommandExecutor
     {
-        // private readonly string _nirCmdPath;
-
-        // public CommandExecutor(string nirCmdPath)
-        // {
-        //     // _nirCmdPath = Path.GetFullPath(nirCmdPath);
-        // }
-
         public Task<string> ExecuteCmdCommand(string command)
         {
             System.Console.WriteLine($"Executing: {command}");

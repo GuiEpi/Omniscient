@@ -5,8 +5,8 @@ namespace OmniscientServer
     class Program
     {
         const string dataPath = @".\data";
-        const string version = "1.0.0";
-        const string author = "Guillaume/John";
+        const string version = "0.0.1";
+        const string author = "Marius/Guillaume/John";
         const string asciiArtPath = "utils/ascii_art.txt";
         const string welcomeMessage = "Welcome to Omniscient C2 CLI Server!";
         static void Main(string[] args)

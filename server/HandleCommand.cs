@@ -14,11 +14,9 @@ namespace OmniscientServer
                 { "list", new ListClientCommand(server) },
                 { "use", new UseClientCommand(server) },
                 { "exec", new ExecuteOnClientCommand(server) },
-                // { "nir", new ExecuteNirOnClientCommand(server) },
                 { "close", new CloseCommand(server) },
                 { "exit", new ExitCommand(server) },
                 { "get-log", new GetLogCommand(server) },
-                // { "screenshot", new ScreenshotCommand(server) },
                 { "sad", new SadCommand(server) },
             };
         }
